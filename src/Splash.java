@@ -22,5 +22,10 @@ public class Splash extends JFrame{
 
         infoLbl = new JTextArea();
         infoLbl.setText(info.getDescription());
+        infoLbl.setEditable(false);
+        this.getContentPane().add(infoLbl, BorderLayout.CENTER);
+
+        this.pack();
+        this.setVisible(true);
     }
 }

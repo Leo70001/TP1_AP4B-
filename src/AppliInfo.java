@@ -12,7 +12,7 @@ public AppliInfo(String name, String version, String author, String info){
 }
 
 public String getDescription(){
-    String description = null;
+    String description = "";
     description = description.concat("===" + name + "===\n");
     description = description.concat("Version:" +version+ "\n");
     description = description.concat("Auteur:" + author+ "\n");
